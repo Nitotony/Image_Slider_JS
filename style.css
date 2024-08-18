@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.slider{
+    position: relative;
+    width: 80%;
+    height: 700px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+.slider img{
+    width: 100%;
+    display: none;
+}
+img.displaySlide{
+    display: block;
+   
+}
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    padding: 10px 15px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
